@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap');
+
+*{
+    font-family: 'Noto Sans JP';
+    font-weight: 200;
+    margin: 0;
+}
+
+header{
+    background-image: linear-gradient(rgba(27, 27, 27, 0.299), rgba(27, 27, 27, 0.75)), url(webART/resl.png);
+
+}
+
+.nav .nav-link{
+    height: 53px;
+    padding-top: 10em;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 237;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.12em;
+
+    color: #FF7A7A;
+}
+.nav .nav-link:hover{
+    color: white;
+}
+
+.child-1{
+
+    padding: 1em 0 5em 0;
+    width: auto;
+    flex-shrink: 1;
+
+}
+.child-1 #big{
+    padding-bottom: 1em;
+    width: 656px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 3.5em;
+
+    line-height: 130px;
+
+    color: #D5C4F7;
+}
+
+/*main*/
+main{
+    background: #262C38;
+    backdrop-filter: blur(2px);
+    padding: 2em;
+
+    color: #D5C4F7;
+}
+
+.page-materials .head-cap{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.2em;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.12em;
+    padding: 15px;
+
+    color: #FF7A7A;
+}
+
+
+.page-mts #title{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.12em;
+
+    color: #FFFFFF;
+}
+
+.page-mts #list{
+    font-family: 'josefin sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1em;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.12em;
+
+    color: #FFFFFF;
+}
+
+
+.page-materials .head-cap-after{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+
+    letter-spacing: 0.12em;
+    margin-top: 3em;
+
+    color: #FF7A7A;
+}
+
+
+.border{
+    border: 2px solid ;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*about made-from*/
+.gallery-scroll{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.gallery-scroll .item-1{
+    display: flex;
+
+    padding-top: 15em;
+}
+.gallery-scroll .item-2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 15em;
+}
+
+.item-1 .about-item{
+    margin-left: 10px;
+
+    flex-direction: column;
+}
+.item-2 .about-item{
+    margin-right: 10px;
+
+    flex-direction: column;
+}
+.about-item .head-info{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.12em;
+
+    color: #FF7A7A;
+}
+.about-item {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+
+    align-items: center;
+    letter-spacing: 0.12em;
+
+    color: #ffffff;
+}
+
+
+#span{
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 30px;
+
+    color: #fafafa;
+}
+
+
+.submission{
+    margin:10em;
+    text-align: center;
+}
+.submission .knee-line{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.12em;
+
+    color: #FFFFFF;
+}
+
+/*footer*/
+footer{
+    background: no-repeat;
+    background-image: linear-gradient(rgba(50, 7, 19, 0.813), rgba(50, 7, 19, 0.813)), url(webART/n-ft.jpg);
+}
+
+
+
+.parent-footer{
+    display: flex;
+}
+
+.parent-footer .hero-f{
+
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+    flex-grow: 1;
+}
+.hero-f h1{
+    border-left: 2px solid rgb(255, 243, 243);
+    margin: 20px;
+    padding: 10px;
+    
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6vmin;
+
+  
+
+    color: #D5C4F7;
+}
+
+.form{
+
+    align-items: center;
+
+    flex-grow: 1;
+}
+.form h5{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vmin;
+
+
+    line-height: 100px;
+
+    color: #D5C4F7;
+}
+.fa-brands {
+    padding-left: 15px;
+    font-size: 2em;
+    color: #d74444;
+
+    transition: 1s;
+}
+.fa-brands:hover{
+    color: #FF7A7A;
+
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+
+    -webkit-box-shadow: 5px 5px 55px #5e444a, -5px -5px 55px #d298a4;
+    box-shadow: 5px 5px 55px #5e444a, -5px -5px 55px #d298a4;
+    
+    animation: bounce; 
+    animation-duration: 1.5s;
+}
